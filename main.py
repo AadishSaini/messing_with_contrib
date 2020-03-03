@@ -10,7 +10,7 @@ for a in range(365):
 		date = random.randint(1, 31)
 	else:
 		date = random.randint(1,30)
-	fmat = str(month)+"/"+str(date)+"/"+"2021"
+	fmat = str(month)+"/"+str(date)+"/"+"2020"
 	with open('file.txt', 'r') as f:
 		chars_s = f.readlines()
 		chars = len(chars_s[0])
